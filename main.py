@@ -5,8 +5,8 @@ COMPANY_NAME = "Ethereum"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-STOK_API_KEY = "IIEEI3CKKYSJV9ZN"
-NEW_API_KEY = "f4a459900a9b42138c4a477b6b0dafa0"
+STOK_API_KEY = "---EEI3CKKYSJV***"
+NEW_API_KEY = "f4a4****0a9b42138c4a477b6b0daf***"
 # получаем цену закрытия вчерашнего дня дня
 stok_params = {
     "function": "DIGITAL_CURRENCY_DAILY",
@@ -59,8 +59,8 @@ if dif_percent > 5:
     formatted_articles = [f"Headline: {articles['title']}, \nBrief: {articles['description']}" for articles in
                           three_articles]
     print(formatted_articles)
-    my_email = "sky_sapffire@yahoo.com"
-    password = "xqsopiehaxeyfwqc"
+    my_email = "///***fire@yahoo.com"
+    password = "***sopiehaxe***"
     with smtplib.SMTP("smtp.mail.yahoo.com") as connection:
         connection.starttls()
         connection.login(user=my_email, password=password)
